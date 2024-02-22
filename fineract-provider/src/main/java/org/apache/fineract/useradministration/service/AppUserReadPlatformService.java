@@ -28,7 +28,7 @@ public interface AppUserReadPlatformService {
     Collection<AppUserData> retrieveSearchTemplate();
 
     AppUserData retrieveNewUserDetails();
-
+    
     AppUserData retrieveUser(Long userId);
 
     boolean isUsernameExist(String username);
